@@ -1,10 +1,24 @@
-# Retail-Website-Crawlers
+# Supreme Website Crawler 
 
-### Supreme Website Crawler 
-Columns fetched from Supreme Webiste :
+Scraper for Supreme Newyork Website 
 
-date, release_week, name, currency, price, sale_price, color, size, category_name, description, new_item_x, stock_level,	purchasable_qty, new_item_y, id, product_id, main_id, image_url_hi, swatch_url_hi, can_add_styles, can_buy_multiple, ino,
-cod_blocked, canada_blocked, apparel, handling, no_free_shipping, can_buy_multiple_with_limit and position .
+## Getting Started
+
+
+### Prerequisites
+```
+pip install -r requirements.txt
+```
+
+### Usage
+
+```
+python Supreme-Crawler.py
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 
 
