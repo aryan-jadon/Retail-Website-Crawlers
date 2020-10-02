@@ -6,7 +6,7 @@ from pandas.io.json import json_normalize
 import os
 
 
-response = requests.get("https://www.supremenewyork.com/mobile_stock.json")
+response = requests.get("http://www.supremenewyork.com/mobile_stock.json")
 response_list = json.loads(response.text)
 
 date = response_list["release_date"]
